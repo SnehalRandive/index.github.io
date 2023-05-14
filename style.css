@@ -1,0 +1,240 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(157, 141, 141);
+    overflow-x: hidden;
+    
+
+}
+
+.bg-image {
+    background-image: url(Img/bg-img.jpg);
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    object-fit: contain;
+    /* margin-top: -8.3rem; */
+
+}
+
+.nav {
+    width: 100%;
+    background-color: rgba(174, 118, 118, 0.76);
+    top: 0;
+    height: 6vh;
+    position: relative;
+    z-index: 999;
+    position: fixed;
+
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    float: left;
+    width: 80px;
+    height: 20px;
+    text-align: center;
+    padding: 5px;
+
+}
+
+ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    text-shadow: red 1px 1px 1px;
+}
+
+.h-button {
+    margin-left: 24rem;
+    margin-top: 2px;
+}
+
+.header-text {
+    /* margin-top: 10rem; */
+    margin-left: 20px;
+    font-size: 20px;
+    color: white;
+    text-shadow: red 1px 1px 1px;
+    font-weight: bold;
+    padding-top:5rem;
+}
+
+.h-small {
+    font-size: 15px;
+    gap: 5rem;
+    font-weight: bold;
+    margin-top: 2rem;
+}
+
+.h-small-1 {
+    font-size: 12px;
+    margin-top: 20px;
+
+}
+
+.h-button-2 {
+    background-color: rgb(240, 231, 204);
+    width: 15%;
+    border-radius: 5px;
+    margin-top: 15px;
+    border: none;
+    padding: 5px;
+    color: rgb(67, 52, 52);
+    font-weight: bold;
+}
+
+.midd-1 {
+    height:100vh;
+    width: 30rem;
+
+}
+
+.about-us {
+    display: flex;
+}
+
+.midd-side-h1 {
+    color: rgb(34, 37, 37);
+    margin: 10px;
+    font-weight: 700;
+}
+
+.on-m1 {
+    color: aquamarine;
+    height: 10vh;
+}
+
+.certification {
+    background-color: rgb(240, 236, 193);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    margin: 15px;
+    height:15vh;
+}
+.text-1{
+    font-size:13px;
+    color: gray;
+    font-weight: 500;
+}
+
+.card{
+    height:80vh;
+    width:25%;
+    background-color: rgb(241, 187, 190);
+    box-shadow: black 3px -3px 8px;
+    transition: 2s;
+
+}
+.card:hover{
+    transform: scale(1.1);
+}
+.card-img-top{
+    height: 40vh;
+    width: 100%;
+}
+.course{
+    display: flex;
+    gap:20px;
+    padding:10px;
+    margin-top: 3rem;
+
+}
+.card-text{
+    font-size: 12px;
+    font-weight:500;
+    text-align: start;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+.box-price{
+    height: 30px;
+    width: 100%;
+    background-color: rgb(112, 76, 190);
+    margin-top: 25px;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(12, 11, 11);
+    margin-top:2.2rem;
+
+}
+.box-price-1{
+    height: 30px;
+    width: 100%;
+    background-color: rgb(112, 76, 190);
+    margin-top: 25px;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(12, 11, 11);
+    margin-top:3rem;
+}
+.box-price-2{
+    height: 30px;
+    width: 100%;
+    background-color: rgb(112, 76, 190);
+    margin-top: 25px;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(12, 11, 11);
+    margin-top:4rem;
+}
+.course-header{
+    text-align: center;
+    margin-top: 2rem;
+    
+}
+.card-title{
+    text-align: center;
+    font-size: 18px;
+    
+}
+.ft-img{
+    background-image: url(img/footer-img.png);
+    height: 55vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 70px;
+}
+.footer-1{
+    text-align: center;
+    padding-top:1rem;
+    font-weight: bold;
+    font-size: 20px;
+}
+.social-icons{
+   text-align: center;
+   margin-top:10px;
+   
+}
+.sym{
+margin: 8px;
+}
+.number{
+    font-weight: bold;
+}
+.contact-no{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.symbol{
+    height:15vh;
+   margin-left:28rem;
+   margin-top: 10px;
+   border-radius: 50%;
+   padding: 10px 8px;
+   border: rgb(194, 20, 20) solid 2px;
+   
+   
+}
